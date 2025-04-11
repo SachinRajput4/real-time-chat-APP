@@ -1,4 +1,5 @@
-const socket = io('http://localhost:8000');
+const socket = io('https://real-time-chat-app-backend-ipn6.onrender.com');
+// const socket = io('http://localhost:8000');
 
 // get elements from the DOM
 const form = document.getElementById('send-container');
