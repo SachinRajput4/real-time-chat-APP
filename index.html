@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real-time Chat App</title>
+  
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="js/client.js"></script>
+  
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <img class="logo" src="call-icon.jpg" alt="Chat App Logo" />
+      <h1>Chat App</h1>
+    </div>
+  </nav>
+
+  <div class="container" id="chat-container">
+    <!-- <div class="message left">Harry: How are you?</div>
+    <div class="message right">Sachin: I am fine bro. How about you?</div> -->
+  </div>
+
+  <div class="send">
+    <form id="send-container">
+      <input type="text" id="message-input" name="messageInput" placeholder="Type your message..." required />
+      <button type="submit" id="send-button">Send</button>
+    </form>
+  </div>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+    <nav>
+        <img class="logo" src="call-icon.jpg" alt="">
+    </nav>
+    <div class="container">
+        <div class="message left ">hairy:how are you </div>
+        <div class="message right">sachin : i am fine bro . how about  </div>
+
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" id="message-input" name="messageInput" placeholder="Type your message here..." required>
+            <button type="submit" class="btn" id="send-button">Send</button>
+        </form>
+    </div>
+</body>
+</html> -->
