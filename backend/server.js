@@ -1,6 +1,7 @@
 const io = require('socket.io')(8000, {
     cors: {
-        origin: "http://127.0.0.1:5500",
+        // origin: "http://127.0.0.1:5500",
+        origin: "https://sachinrajput4.github.io/real-time-chat-APP/",
         methods: ["GET", "POST"]
     }
 });
